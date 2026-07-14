@@ -27,6 +27,7 @@ import {
 import { FLAVORS, TESTIMONIALS, COMBOS, PAIRINGS } from "./data";
 import { Flavor, Recommendation } from "./types";
 import NusaLogo from "./components/NusaLogo";
+import kit8SaboresFlyer from "./assets/images/kit_8_sabores_flyer_1783983284835.jpg";
 
 export default function App() {
   // Navigation active state
@@ -576,7 +577,7 @@ export default function App() {
             <div className="lg:col-span-5 flex justify-center order-2 lg:order-1">
               <div className="relative group rounded-3xl overflow-hidden shadow-2xl border-4 border-white transition-all duration-500 hover:scale-[1.02] bg-stone-100 max-w-sm sm:max-w-md w-full">
                 <img 
-                  src="/kit_8_sabores_flyer_small.jpg" 
+                  src={kit8SaboresFlyer} 
                   alt="Flyer Oficial Nusa Kit 8 Sabores" 
                   className="w-full h-auto object-cover cursor-pointer"
                   onClick={() => setViewFlyerModal(true)}
@@ -1357,7 +1358,7 @@ export default function App() {
 
               <div className="w-full h-full overflow-hidden rounded-2xl flex justify-center">
                 <img 
-                  src="/kit_8_sabores_flyer.jpg" 
+                  src={kit8SaboresFlyer} 
                   alt="Flyer Oficial Nusa Kit 8 Sabores Expandido" 
                   className="w-auto h-auto max-h-[80vh] object-contain"
                 />
