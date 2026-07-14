@@ -1,0 +1,6 @@
+{
+  "name": "Nusa Geleias",
+  "description": "Landing page de Geleias Artesanais Nusa, com catálogo de sabores interativo, montador de kits e Sommelier Inteligente por Inteligência Artificial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
